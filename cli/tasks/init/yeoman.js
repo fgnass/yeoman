@@ -37,6 +37,17 @@ if(!opts.help) {
 
 // Welcome message
 template.welcome =
+'      _----_' +
+'\n     |      |  ' +
+'\n     |__'+'()'.red+'__|   .--------------------------.' +
+'\n    `--------´  |    '+'Welcome to Yeoman,'.yellow.bold+'    |' +
+'\n    '+'('.yellow + '.-' + '´[]`'.yellow +'-.'+')'.yellow + '  |   '+'ladies and gentlemen!'.yellow.bold+'  |' +
+'\n    /___/\\___\\  |__________________________|' +
+'\n     '+'|  `´  |'.yellow + '   ' +
+'\n    __'+'`-__-´'.yellow+'__    ' +
+'\n   ´  `-__-´ '+'Y'.red+' `\n';
+
+/*
 '\n        _   .--------------------------.' +
 '\n      _|' + 'o'.red + '|_ |    ' + 'Welcome to Yeoman,'.yellow.bold + '    |' +
 '\n       '+ '|_|'.yellow + '  |   ' + 'ladies and gentlemen!'.yellow.bold + '  |' +
@@ -45,6 +56,7 @@ template.welcome =
 '\n    '+'o'.yellow + '/' + ' ---'.red + ' \\                            ' +
 '\n      _\\ /_                             ' +
 '\n'.yellow.bold;
+*/
 
 // Template-specific notes to be displayed before question prompts.
 template.notes = '\n'; //... More notes to come here ...'.yellow;
