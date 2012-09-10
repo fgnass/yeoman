@@ -37,26 +37,16 @@ if(!opts.help) {
 
 // Welcome message
 template.welcome =
-'      _----_' +
-'\n     |      |  ' +
-'\n     |__'+'()'.red+'__|   .--------------------------.' +
-'\n    `--------´  |    '+'Welcome to Yeoman,'.yellow.bold+'    |' +
-'\n    '+'('.yellow + '.-' + '´[]`'.yellow +'-.'+')'.yellow + '  |   '+'ladies and gentlemen!'.yellow.bold+'  |' +
-'\n    /___/\\___\\  |__________________________|' +
-'\n     '+'|  `´  |'.yellow + '   ' +
-'\n    __'+'`-__-´'.yellow+'__    ' +
-'\n   ´  `-__-´'+'Y'.red+' `\n';
+'\n     _-----_' +
+'\n    |       |' +
+'\n    |'+'--(o)--'.red+'|   .--------------------------.' +
+'\n   `---------´  |    '+'Welcome to Yeoman,'.yellow.bold+'    |' +
+'\n    '+'( '.yellow+'_'+'´U`'.yellow+'_'+' )'.yellow+'   |   '+'ladies and gentlemen!'.yellow.bold+'  |' +
+'\n    /___A___\\   \'__________________________\'' +
+'\n     |  ~  |'.yellow +
+'\n   __'+'\'.___.\''.yellow+'__' +
+'\n ´   '+'`  |'.red+'° '+'´ Y'.red+' `\n';
 
-/*
-'\n        _   .--------------------------.' +
-'\n      _|' + 'o'.red + '|_ |    ' + 'Welcome to Yeoman,'.yellow.bold + '    |' +
-'\n       '+ '|_|'.yellow + '  |   ' + 'ladies and gentlemen!'.yellow.bold + '  |' +
-'\n     / \\' + 'Y'.red + '/ \\' + ' o'.yellow + '_________________________|' +
-'\n    ||  :  |\//                          ' +
-'\n    '+'o'.yellow + '/' + ' ---'.red + ' \\                            ' +
-'\n      _\\ /_                             ' +
-'\n'.yellow.bold;
-*/
 
 // Template-specific notes to be displayed before question prompts.
 template.notes = '\n'; //... More notes to come here ...'.yellow;
